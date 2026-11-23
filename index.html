@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panthip</title>
+  <style>
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+    }
+    main {
+      display: grid;
+      justify-items: center;
+      gap: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div>Panthip</div>
+    <button type="button" id="hello-button">Hello</button>
+  </main>
+  <script>
+    document.getElementById("hello-button").addEventListener("click", function () {
+      alert("Hello");
+    });
+  </script>
+</body>
+</html>
